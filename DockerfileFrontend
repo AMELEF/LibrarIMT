@@ -1,0 +1,13 @@
+#Build AuthAPI package
+FROM maven:3.9.6-amazoncorretto-21 as build
+RUN mkdir -p /auth-api
+WORKDIR /auth-api
+COPY Gatcha_WebAPI_Auth/pom.xml /auth-api
+COPY Gatcha_WebAPI_Auth/src /auth-api/src
+RUN mvn -f pom.xml clean package
+#Run AuthAPI container
+FROM openjdk:21
+MAINTAINER amflinois
+COPY --from=build /auth-api/target/*.jar authAPI.jar
+ENTRYPOINT ["java", "-jar", "/authAPI.jar"]
+EXPOSE 27018/tcp
