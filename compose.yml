@@ -1,0 +1,44 @@
+version: '3.3'
+services:
+  backend:
+    container_name: backend
+    build:
+      context: ./LibrarIMTBackend
+      dockerfile: DockerfileBackend
+    image: librarimt-backend:latest
+    ports:
+      - "8080:8080"
+    networks:
+      - metier-network
+  frontend:
+    container_name: frontend
+    build:
+      context: FrontendLibrarIMT
+      dockerfile: DockerfileFrontend
+    image: librarimt-frontend:latest
+    ports:
+      - "3000:3000"
+    networks:
+      - metier-network
+
+  sonarqube:
+    image: sonarqube:community
+    container_name: sonarqube
+    ports:
+      - "9000:9000"
+    environment:
+      - sonar.jdbc.url=jdbc:postgresql://db:5432/sonarqube
+    depends_on:
+      - db
+
+  db:
+    image: postgres:latest
+    container_name: sonarqube_db
+    environment:
+      POSTGRES_USER: sonar
+      POSTGRES_PASSWORD: sonar
+      POSTGRES_DB: sonarqube
+
+networks:
+  metier-network:
+    driver: bridge

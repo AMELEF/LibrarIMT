@@ -1,0 +1,12 @@
+# Build frontend package
+FROM node:20 AS build
+WORKDIR /frontend
+COPY package*.json /frontend/
+RUN npm install
+COPY . /frontend/
+RUN npm run build
+# Run frontend container
+MAINTAINER amflinois
+RUN npm install --omit=dev # Installe uniquement les dépendances nécessaires en production
+EXPOSE 3000/tcp
+CMD ["npm", "start"]
