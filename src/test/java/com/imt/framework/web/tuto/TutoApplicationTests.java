@@ -10,4 +10,9 @@ class TutoApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void addBook(){
+
+	}
+
 }

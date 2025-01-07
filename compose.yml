@@ -1,0 +1,85 @@
+version: '3.3'
+services:
+  mongo:
+    ports:
+      - '27017:27017'
+    container_name: mongodb
+    restart: on-failure
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=mongoadmin
+      - MONGO_INITDB_ROOT_PASSWORD=password
+    image: mongo
+    networks:
+      - gatcha-network
+    volumes:
+      - mongo-gatchadb:/data/db
+  auth-api:
+    depends_on:
+      - mongo
+    container_name: auth-api
+    build:
+      dockerfile: DockerfileAuth
+    image: auth-api:latest
+    environment:
+      SPRING_DATA_MONGO_URI: mongodb://mongoadmin:password@localhost:27017/authdb
+    ports:
+      - "27018:27018"
+    networks:
+      - gatcha-network
+  player-api:
+    depends_on:
+      - mongo
+    container_name: player-api
+    build:
+      dockerfile: DockerfilePlayer
+    image: player-api:latest
+    environment:
+      SPRING_DATA_MONGO_URI: mongodb://mongoadmin:password@localhost:27017/playerdb
+    ports:
+      - "27019:27019"
+    networks:
+      - gatcha-network
+  monster-api:
+    depends_on:
+      - mongo
+    container_name: monster-api
+    build:
+      dockerfile: DockerfileMonster
+    image: monster-api:latest
+    environment:
+      SPRING_DATA_MONGO_URI: mongodb://mongoadmin:password@localhost:27017/monsterdb
+    ports:
+      - "27021:27021"
+    networks:
+      - gatcha-network
+  invoc-api:
+    depends_on:
+      - mongo
+    container_name: invoc-api
+    build:
+      dockerfile: DockerfileInvoc
+    image: invoc-api:latest
+    environment:
+      SPRING_DATA_MONGO_URI: mongodb://mongoadmin:password@localhost:27017/invocdb
+    ports:
+      - "27022:27022"
+    networks:
+      - gatcha-network
+  combat-api:
+    depends_on:
+      - mongo
+    container_name: combat-api
+    build:
+      dockerfile: DockerfileCombat
+    image: combat-api:latest
+    environment:
+      SPRING_DATA_MONGO_URI: mongodb://mongoadmin:password@localhost:27017/combatdb
+    ports:
+      - "27023:27023"
+    networks:
+      - gatcha-network
+networks:
+  gatcha-network:
+    driver: bridge
+volumes:
+  mongo-gatchadb:
