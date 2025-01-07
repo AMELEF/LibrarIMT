@@ -1,0 +1,60 @@
+Index: src/main/resources/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/src/main/resources/application.properties b/LibrarIMTBackend/src/main/resources/application.properties
+rename from src/main/resources/application.properties
+rename to LibrarIMTBackend/src/main/resources/application.properties
+--- a/src/main/resources/application.properties	
++++ b/LibrarIMTBackend/src/main/resources/application.properties	
+@@ -1,6 +1,6 @@
+ 
+ spring.jpa.hibernate.ddl-auto=update
+-#Url de la bdd à changer
++#Url de la bdd Ã  changer
+ spring.datasource.url=jdbc:h2:file:./demo
+ spring.datasource.driverClassName=org.h2.Driver
+ #Se renseigner pour injecter les variables d'environnement
+diff --git a/.idea/encodings.xml b/LibrarIMTBackend/.idea/encodings.xml
+rename from .idea/encodings.xml
+rename to LibrarIMTBackend/.idea/encodings.xml
+diff --git a/.idea/jarRepositories.xml b/LibrarIMTBackend/.idea/jarRepositories.xml
+rename from .idea/jarRepositories.xml
+rename to LibrarIMTBackend/.idea/jarRepositories.xml
+diff --git a/.idea/compiler.xml b/LibrarIMTBackend/.idea/compiler.xml
+rename from .idea/compiler.xml
+rename to LibrarIMTBackend/.idea/compiler.xml
+diff --git a/src/test/java/com/imt/framework/web/tuto/TutoApplicationTests.java b/LibrarIMTBackend/src/test/java/com/imt/framework/web/tuto/TutoApplicationTests.java
+rename from src/test/java/com/imt/framework/web/tuto/TutoApplicationTests.java
+rename to LibrarIMTBackend/src/test/java/com/imt/framework/web/tuto/TutoApplicationTests.java
+diff --git a/pom.xml b/LibrarIMTBackend/pom.xml
+rename from pom.xml
+rename to LibrarIMTBackend/pom.xml
+diff --git a/HELP.md b/LibrarIMTBackend/HELP.md
+rename from HELP.md
+rename to LibrarIMTBackend/HELP.md
+diff --git a/src/main/java/com/imt/framework/web/tuto/resources/LivreResource.java b/LibrarIMTBackend/src/main/java/com/imt/framework/web/tuto/resources/LivreResource.java
+rename from src/main/java/com/imt/framework/web/tuto/resources/LivreResource.java
+rename to LibrarIMTBackend/src/main/java/com/imt/framework/web/tuto/resources/LivreResource.java
+diff --git a/src/main/java/com/imt/framework/web/tuto/entities/Livre.java b/LibrarIMTBackend/src/main/java/com/imt/framework/web/tuto/entities/Livre.java
+rename from src/main/java/com/imt/framework/web/tuto/entities/Livre.java
+rename to LibrarIMTBackend/src/main/java/com/imt/framework/web/tuto/entities/Livre.java
+diff --git a/src/main/java/com/imt/framework/web/tuto/repositories/LivreRepository.java b/LibrarIMTBackend/src/main/java/com/imt/framework/web/tuto/repositories/LivreRepository.java
+rename from src/main/java/com/imt/framework/web/tuto/repositories/LivreRepository.java
+rename to LibrarIMTBackend/src/main/java/com/imt/framework/web/tuto/repositories/LivreRepository.java
+diff --git a/src/main/java/com/imt/framework/web/tuto/TutoApplication.java b/LibrarIMTBackend/src/main/java/com/imt/framework/web/tuto/TutoApplication.java
+rename from src/main/java/com/imt/framework/web/tuto/TutoApplication.java
+rename to LibrarIMTBackend/src/main/java/com/imt/framework/web/tuto/TutoApplication.java
+diff --git a/.idea/vcs.xml b/LibrarIMTBackend/.idea/vcs.xml
+rename from .idea/vcs.xml
+rename to LibrarIMTBackend/.idea/vcs.xml
+diff --git a/.idea/misc.xml b/LibrarIMTBackend/.idea/misc.xml
+rename from .idea/misc.xml
+rename to LibrarIMTBackend/.idea/misc.xml
+diff --git a/src/main/java/com/imt/framework/web/tuto/JerseyConfig.java b/LibrarIMTBackend/src/main/java/com/imt/framework/web/tuto/JerseyConfig.java
+rename from src/main/java/com/imt/framework/web/tuto/JerseyConfig.java
+rename to LibrarIMTBackend/src/main/java/com/imt/framework/web/tuto/JerseyConfig.java
+diff --git a/.idea/.gitignore b/LibrarIMTBackend/.idea/.gitignore
+rename from .idea/.gitignore
+rename to LibrarIMTBackend/.idea/.gitignore
