@@ -4,6 +4,11 @@ RUN mkdir -p /backend
 WORKDIR /backend
 COPY pom.xml /backend
 COPY src /backend/src
+RUN mvn clean verify sonar:sonar \
+      -Dsonar.projectKey=LibrarIMT \
+      -Dsonar.projectName='LibrarIMT' \
+      -Dsonar.host.url=http://localhost:9000 \
+      -Dsonar.token=sqp_566918002cf19970024f86a8cb8063e9dea16157
 RUN mvn -f pom.xml clean package
 #Run Backend container
 FROM openjdk:21
