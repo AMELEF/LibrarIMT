@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="09207a55-f50c-40a7-aa60-3eac90566877" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LibrarIMTBackend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/src/main/java/com/imt/framework/web/tuto/entities/Livre.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibrarIMTBackend/src/main/java/com/imt/framework/web/tuto/entities/Livre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/src/test/java/com/imt/framework/web/tuto/TutoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/target/classes/com/imt/framework/web/tuto/entities/Livre.class" beforeDir="false" afterPath="$PROJECT_DIR$/LibrarIMTBackend/target/classes/com/imt/framework/web/tuto/entities/Livre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/LibrarIMTBackend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/LibrarIMTBackend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/LibrarIMTBackend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/LibrarIMTBackend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/target/surefire-reports/TEST-com.imt.framework.web.tuto.TutoApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/target/surefire-reports/com.imt.framework.web.tuto.TutoApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/target/test-classes/com/imt/framework/web/tuto/TutoApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/target/tuto-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/target/tuto-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2rKyVnxQMIr3FnDnrc2EKPMo3Vc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/amlf2/IdeaProjects/Tuto-Web-service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.scopes",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.LivreResourceTest">
+    <configuration name="LivreResourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tuto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imt.framework.web.tuto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imt.framework.web.tuto" />
+      <option name="MAIN_CLASS_NAME" value="com.imt.framework.web.tuto.LivreResourceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TutoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="tuto" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imt.framework.web.tuto.TutoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LivreResourceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09207a55-f50c-40a7-aa60-3eac90566877" name="Changes" comment="" />
+      <created>1736322089500</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736322089500</updated>
+      <workItem from="1736322091792" duration="1654000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

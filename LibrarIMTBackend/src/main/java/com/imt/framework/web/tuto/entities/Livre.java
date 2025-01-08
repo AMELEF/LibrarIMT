@@ -11,6 +11,17 @@ public class Livre {
     private String auteur;
     private Double price;
 
+    public Livre(int i, String titre, String auteur, double price) {
+        this.id = i;
+        this.titre = titre;
+        this.auteur = auteur;
+        this.price = price;
+    }
+
+    public Livre() {
+
+    }
+
     public Integer getId() {
         return id;
     }

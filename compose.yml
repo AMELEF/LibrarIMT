@@ -21,24 +21,6 @@ services:
     networks:
       - metier-network
 
-  sonarqube:
-    image: sonarqube:community
-    container_name: sonarqube
-    ports:
-      - "9000:9000"
-    environment:
-      - sonar.jdbc.url=jdbc:postgresql://db:5432/sonarqube
-    depends_on:
-      - db
-
-  db:
-    image: postgres:latest
-    container_name: sonarqube_db
-    environment:
-      POSTGRES_USER: sonar
-      POSTGRES_PASSWORD: sonar
-      POSTGRES_DB: sonarqube
-
 networks:
   metier-network:
     driver: bridge
