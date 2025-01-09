@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09207a55-f50c-40a7-aa60-3eac90566877" name="Changes" comment="" />
+    <list default="true" id="09207a55-f50c-40a7-aa60-3eac90566877" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/DockerfileBackend" beforeDir="false" afterPath="$PROJECT_DIR$/LibrarIMTBackend/DockerfileBackend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LibrarIMTBackend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/demo.mv.db" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +115,8 @@
       <workItem from="1736408127681" duration="555000" />
       <workItem from="1736408747615" duration="5469000" />
       <workItem from="1736430198693" duration="2532000" />
-      <workItem from="1736436804207" duration="4475000" />
+      <workItem from="1736436804207" duration="6575000" />
+      <workItem from="1736443730515" duration="226000" />
     </task>
     <servers />
   </component>

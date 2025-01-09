@@ -8,5 +8,5 @@ RUN mvn -f pom.xml clean package
 #Run Backend container
 FROM openjdk:21
 COPY --from=build /backend/target/*.jar backend.jar
-ENTRYPOINT ["java", "-jar", "/backend.jar"]
+ENTRYPOINT ["java", "-jar", "backend.jar"]
 EXPOSE 8080/tcp
