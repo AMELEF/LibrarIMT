@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="09207a55-f50c-40a7-aa60-3eac90566877" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LibrarIMTBackend/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +67,7 @@
       <command value="mvn clean test -f pom.xml" />
       <command value="mvn clean compile" />
       <command value="mvn -f pom.xml clean package" />
+      <command value="mvn clean install" />
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.TutoApplication">
@@ -111,7 +113,7 @@
       <workItem from="1736408127681" duration="555000" />
       <workItem from="1736408747615" duration="5469000" />
       <workItem from="1736430198693" duration="2532000" />
-      <workItem from="1736436804207" duration="3224000" />
+      <workItem from="1736436804207" duration="3681000" />
     </task>
     <servers />
   </component>
