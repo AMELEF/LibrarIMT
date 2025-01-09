@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09207a55-f50c-40a7-aa60-3eac90566877" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/FrontendLibrarIMT/DockerfileFrontend" beforeDir="false" afterPath="$PROJECT_DIR$/FrontendLibrarIMT/DockerfileFrontend" afterDir="false" />
-    </list>
+    <list default="true" id="09207a55-f50c-40a7-aa60-3eac90566877" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +110,7 @@
       <workItem from="1736408127681" duration="555000" />
       <workItem from="1736408747615" duration="5469000" />
       <workItem from="1736430198693" duration="2532000" />
-      <workItem from="1736436804207" duration="4064000" />
+      <workItem from="1736436804207" duration="4475000" />
     </task>
     <servers />
   </component>
