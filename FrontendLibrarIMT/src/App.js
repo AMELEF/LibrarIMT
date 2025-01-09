@@ -19,8 +19,10 @@ function App() {
 }
 
 function getBooks () {
+    var ip = location.host;
+    ip = ip.substring(0, ip.indexOf(":"));
   
-  fetch("http://localhost:8080/library/books")
+  fetch("http://"+ip+":8080/library/books")
   .then(response => response.json())
   .then(data => {
       const books = data;
