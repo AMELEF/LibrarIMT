@@ -1,5 +1,5 @@
 #Build Backend package
-FROM maven:3.9.6-amazoncorretto-21 as build
+FROM maven:3.9.6-amazoncorretto-21 AS build
 RUN mkdir -p /backend
 WORKDIR /backend
 COPY pom.xml /backend
@@ -7,7 +7,6 @@ COPY src /backend/src
 RUN mvn -f pom.xml clean package
 #Run Backend container
 FROM openjdk:21
-MAINTAINER amflinois
 COPY --from=build /backend/target/*.jar backend.jar
 ENTRYPOINT ["java", "-jar", "/backend.jar"]
 EXPOSE 8080/tcp

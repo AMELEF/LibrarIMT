@@ -11,7 +11,7 @@ import java.util.List;
 @Component
 public interface LivreRepository extends JpaRepository<Livre, Integer> {
 
-    @Query(value = "Select l from Livre l where price <= :maxPrice")
+    @Query(value = "Select l from Livre l where l.price <= :maxPrice")
     List<Livre> getBooksWithMaxPrice(@Param("maxPrice") Double maxPrice);
 
 }
