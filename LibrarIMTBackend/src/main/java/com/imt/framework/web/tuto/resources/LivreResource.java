@@ -38,6 +38,8 @@ public class LivreResource {
         livreRepository.save(livre);
     }
 
+    //Testing Webhook
+
     @PATCH
     @Consumes
     @Path("/{id}")
