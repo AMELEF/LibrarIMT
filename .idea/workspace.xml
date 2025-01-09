@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09207a55-f50c-40a7-aa60-3eac90566877" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LibrarIMTBackend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/src/main/java/com/imt/framework/web/tuto/entities/Livre.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibrarIMTBackend/src/main/java/com/imt/framework/web/tuto/entities/Livre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/src/test/java/com/imt/framework/web/tuto/TutoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/target/classes/com/imt/framework/web/tuto/entities/Livre.class" beforeDir="false" afterPath="$PROJECT_DIR$/LibrarIMTBackend/target/classes/com/imt/framework/web/tuto/entities/Livre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/LibrarIMTBackend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/LibrarIMTBackend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/LibrarIMTBackend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/LibrarIMTBackend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/target/surefire-reports/TEST-com.imt.framework.web.tuto.TutoApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/target/surefire-reports/com.imt.framework.web.tuto.TutoApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/target/test-classes/com/imt/framework/web/tuto/TutoApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/target/tuto-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/target/tuto-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/DockerfileBackend" beforeDir="false" afterPath="$PROJECT_DIR$/LibrarIMTBackend/DockerfileBackend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/demo.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/LibrarIMTBackend/demo.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/target/surefire-reports/2025-01-07T16-58-17_358-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibrarIMTBackend/target/surefire-reports/2025-01-07T16-58-17_358-jvmRun1.dumpstream" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +22,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2rKyVnxQMIr3FnDnrc2EKPMo3Vc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,6 +33,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -54,12 +48,21 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "project.scopes",
     "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.LivreResourceTest">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean verify sonar:sonar -Dsonar.projectKey=LibrarIMT -Dsonar.projectName='LibrarIMT' -Dsonar.host.url=http://localhost:9000 -Dsonar.token=sqp_54e85478901430325a886b57586ed66fdfc0138d" />
+      <command value="mvn test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.TutoApplication">
     <configuration name="LivreResourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tuto" />
       <extension name="coverage">
@@ -96,7 +99,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736322089500</updated>
-      <workItem from="1736322091792" duration="1654000" />
+      <workItem from="1736322091792" duration="3574000" />
+      <workItem from="1736328313602" duration="301000" />
+      <workItem from="1736330856760" duration="1481000" />
+      <workItem from="1736408127681" duration="555000" />
+      <workItem from="1736408747615" duration="3269000" />
     </task>
     <servers />
   </component>

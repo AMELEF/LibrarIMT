@@ -1,0 +1,6 @@
+projectKey=LibrarIMT
+serverUrl=http://localhost:9000
+serverVersion=24.12.0.100206
+dashboardUrl=http://localhost:9000/dashboard?id=LibrarIMT
+ceTaskId=e90f7c6f-e5a2-4060-bf2a-ebe47450c3bc
+ceTaskUrl=http://localhost:9000/api/ce/task?id=e90f7c6f-e5a2-4060-bf2a-ebe47450c3bc
