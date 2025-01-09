@@ -19,7 +19,7 @@ function App() {
 }
 
 function getBooks () {
-    var ip = location.host;
+    var ip = window.location.host;
     ip = ip.substring(0, ip.indexOf(":"));
   
   fetch("http://"+ip+":8080/library/books")
