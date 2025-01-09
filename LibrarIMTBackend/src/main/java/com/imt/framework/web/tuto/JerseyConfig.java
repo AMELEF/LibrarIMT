@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
 @Component
-@ApplicationPath("librairy")
+@ApplicationPath("library")
 @Configuration
 public class JerseyConfig extends ResourceConfig {
     public JerseyConfig(){
