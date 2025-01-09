@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09207a55-f50c-40a7-aa60-3eac90566877" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/tuto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tuto.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +64,8 @@
       <command value="mvn clean verify sonar:sonar -Dsonar.projectKey=LibrarIMT -Dsonar.projectName='LibrarIMT' -Dsonar.host.url=http://localhost:9000 -Dsonar.token=sqp_54e85478901430325a886b57586ed66fdfc0138d" />
       <command value="mvn test" />
       <command value="mvn clean test -f pom.xml" />
+      <command value="mvn clean compile" />
+      <command value="mvn -f pom.xml clean package" />
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.TutoApplication">
@@ -109,7 +111,7 @@
       <workItem from="1736408127681" duration="555000" />
       <workItem from="1736408747615" duration="5469000" />
       <workItem from="1736430198693" duration="2532000" />
-      <workItem from="1736436804207" duration="1956000" />
+      <workItem from="1736436804207" duration="3224000" />
     </task>
     <servers />
   </component>

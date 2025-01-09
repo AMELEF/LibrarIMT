@@ -4,7 +4,7 @@ RUN mkdir -p /backend
 WORKDIR /backend
 COPY pom.xml /backend
 COPY src /backend/src
-RUN mvn -f pom.xml clean package
+RUN mvn -f pom.xml clean install
 #Run Backend container
 FROM openjdk:21
 COPY --from=build /backend/target/*.jar backend.jar
