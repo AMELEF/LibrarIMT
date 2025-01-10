@@ -38,7 +38,7 @@ public class LivreResource {
         livreRepository.save(livre);
     }
 
-    //Testing Webhook
+    //Testing Webhook Push
 
     @PATCH
     @Consumes
