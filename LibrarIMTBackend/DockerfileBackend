@@ -1,11 +1,13 @@
-#Build Backend package
+# Build Backend package
 FROM maven:3.8.4-openjdk-17-slim AS build
-WORKDIR /backend
+WORKDIR /app
 COPY pom.xml .
 COPY src ./src
 RUN mvn -X clean package -DskipTests
-#Run Backend container
-FROM openjdk:17
-COPY --from=build /backend/target/*.jar backend.jar
+
+# Run Backend container
+FROM openjdk:17-jdk-slim
+WORKDIR /app
+COPY --from=build /app/target/*.jar backend.jar
+EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "backend.jar"]
-EXPOSE 8080/tcp
